@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29bad0a8-ee28-448f-a00f-212d2645dd15" name="Changes" comment="Добавлена возможность удаленного запуска">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+    <list default="true" id="29bad0a8-ee28-448f-a00f-212d2645dd15" name="Changes" comment="Добавлены вложения">
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/properties/SystemPropertiesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,7 +85,7 @@
       <recent name="guru.qa.tests.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationFormTests.successTest">
+  <component name="RunManager" selected="Gradle.SystemPropertiesTests.someTest4">
     <configuration name="RegistrationFormTests.successTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,53 +109,105 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="qa_guru_13_11_jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SystemPropertiesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureReport" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;guru.qa.tests.properties.SystemPropertiesTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="qa_guru_13_11_jenkins [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SystemPropertiesTests.someTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;guru.qa.tests.properties.SystemPropertiesTests.someTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.someTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;guru.qa.tests.properties.SystemPropertiesTests.someTest3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.someTest4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;guru.qa.tests.properties.SystemPropertiesTests.someTest4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SystemPropertiesTests.someTest4" />
+        <item itemvalue="Gradle.SystemPropertiesTests.someTest3" />
+        <item itemvalue="Gradle.SystemPropertiesTests.someTest2" />
+        <item itemvalue="Gradle.SystemPropertiesTests" />
         <item itemvalue="Gradle.RegistrationFormTests.successTest" />
-        <item itemvalue="Gradle.qa_guru_13_11_jenkins [allureServe]" />
-        <item itemvalue="Gradle.qa_guru_13_11_jenkins [allureReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665842063243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены вложения">
+      <created>1665843916995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665843916995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +266,8 @@
     <MESSAGE value="Добавлены простые тесты" />
     <MESSAGE value="Добавлен demoqa-test" />
     <MESSAGE value="Добавлена возможность удаленного запуска" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена возможность удаленного запуска" />
+    <MESSAGE value="Добавлены вложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены вложения" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
