@@ -1,12 +1,10 @@
 package guru.qa.tests.demoqa;
 
-import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
@@ -33,7 +31,7 @@ public class RegistrationFormTests extends TestBase {
         String city = "Jaipur";
 
         step("Open registrations form", () -> {
-            open(baseUrl + "/automation-practice-form");
+            open("/automation-practice-form");
             $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
 
             executeJavaScript("$('footer').remove()");
