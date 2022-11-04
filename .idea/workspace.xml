@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29bad0a8-ee28-448f-a00f-212d2645dd15" name="Changes" comment="Добавлены вложения">
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/properties/SystemPropertiesTests.java" afterDir="false" />
+    <list default="true" id="29bad0a8-ee28-448f-a00f-212d2645dd15" name="Changes" comment="Добавлены тесты Owner">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/credentials.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="owner" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,8 +87,8 @@
       <recent name="guru.qa.tests.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SystemPropertiesTests.someTest4">
-    <configuration name="RegistrationFormTests.successTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OwnerTests.someTest1">
+    <configuration name="OwnerTests.someTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;guru.qa.tests.demoqa.RegistrationFormTests.successTest&quot;" />
+            <option value="&quot;guru.qa.tests.properties.OwnerTests.someTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,7 +209,7 @@
         <item itemvalue="Gradle.SystemPropertiesTests.someTest3" />
         <item itemvalue="Gradle.SystemPropertiesTests.someTest2" />
         <item itemvalue="Gradle.SystemPropertiesTests" />
-        <item itemvalue="Gradle.RegistrationFormTests.successTest" />
+        <item itemvalue="Gradle.OwnerTests.someTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665843916995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлены тесты с параметрами">
+      <created>1667024598428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667024598428</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлены тесты Owner">
+      <created>1667029397683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667029397683</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,22 +283,8 @@
     <MESSAGE value="Добавлен demoqa-test" />
     <MESSAGE value="Добавлена возможность удаленного запуска" />
     <MESSAGE value="Добавлены вложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены вложения" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Добавлены тесты с параметрами" />
+    <MESSAGE value="Добавлены тесты Owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены тесты Owner" />
   </component>
 </project>
