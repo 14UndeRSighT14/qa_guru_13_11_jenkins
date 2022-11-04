@@ -7,7 +7,7 @@
     <list default="true" id="29bad0a8-ee28-448f-a00f-212d2645dd15" name="Changes" comment="ДЗ">
       <change afterPath="$PROJECT_DIR$/src/test/resources/config/credentials.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/RegistrationFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/tests/demoqa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667575055349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ДЗ">
+      <created>1667575774931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667575774931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ДЗ">
+      <created>1667575867499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667575867499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
