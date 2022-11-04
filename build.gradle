@@ -75,7 +75,7 @@ task dz_test (type: Test) {
     useJUnitPlatform {
         includeTags "dz"
     }
-
+}
 
 test {
 
